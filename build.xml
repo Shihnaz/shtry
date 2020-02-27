@@ -1,5 +1,5 @@
 <project >
-<property name= "srccode" location ="./src/main/java/gettingstart"/>
+<property name= "srccode" location ="./src/calcu"/>
 <property name= "classcode" location ="./target"/>
 
 <target name ="compile">
