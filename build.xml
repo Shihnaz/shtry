@@ -1,13 +1,12 @@
-<project default ="compile"/>
-<property name= "src.java.dir" location "./src/calcu"/>
-<property name= "result.dir" location "./target"/>
-<property name= "result.javaclasses.dir" location "${result.dir}/classes"/>
+<project >
+<property name= "srccode" location ="./src/main/java/gettingstart"/>
+<property name= "classcode" location ="./target"/>
+
 <target name ="compile">
-  <mkdir ="${result.javaclasses.dir}"/>
-  <javac srcdir="$ src.java.dir}" destdir="${result.javaclasses.dir}"= debug="true" includeantruntime ="false">
+  <mkdir dir ="${classcode}"/>
+  <javac srcdir="$ {srccode}" destdir="${classcode}" debug="true" includeantruntime ="false">
     </javac>  
  </target>
                                                                                                          
  </project>
-                      
-© 2020 GitHub, Inc.
+                   
