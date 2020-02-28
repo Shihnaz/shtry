@@ -17,7 +17,7 @@ public class testcalc {
 	public void positive() {
 		int a = 10;
 		int b = 20;
-		Calculator calc = new Calculator();
+		Calculater calc = new Calculater();
 		int result = calc.add(a, b);
 		assertTrue(result>0);
 	}
@@ -25,14 +25,14 @@ public class testcalc {
 	  public void negative() {
 		int a = -10;
 		int b = -20;
-		Calculator calc = new Calculator();
+		Calculater calc = new Calculater();
 		int result = calc.add(a, b);
 		assertTrue(result==-30);}
 	@Test
 	 public  void diffrent() {
 		int a = -10;
 		int b = 20;
-		Calculator calc = new Calculator();
+	Calculater calc = new Calculater();
 		int result = calc.add(a, b);
 		assertTrue(result==10);
 	}
